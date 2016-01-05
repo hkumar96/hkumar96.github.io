@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	font-size:17px;
+	box-sizing:border-box;
+}
+header{
+	width:100%;
+	font-size:1.1em;
+}
+	header ul li, header div{
+		display:inline-block;
+	}
+	header div.sociallinks{
+		position:fixed;
+		top:24px;
+		right:2%;
+	}
+	header div.sociallinks a:first-child{
+		padding-left:0;
+	}
+	header .sociallinks a:last-child{
+		padding-right:0;
+	}
+	header .togglebutton{
+	visibility:hidden;
+}
+img{
+	width:30%;
+	float:left;
+}
+.slider{
+	width:70%;
+	right:0;	
+}
+
+
+
+

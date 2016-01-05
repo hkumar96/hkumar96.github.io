@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	font-size:1.7vw;
+}
+header{
+	width:100%;
+	font-size:1.1em;
+}
+header ul li{
+	display:inline-block;
+}
+header .sociallinks{
+	position:absolute;
+}
+header .togglebutton{
+	visibility:visible;
+}
+img{
+	width:30%;
+	border-radius:50%;
+	padding:0 35%;
+}
+.slider{
+	width:100%;
+	right:0;
+}
+

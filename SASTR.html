@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SASTR</title>
+<link rel="stylesheet" href="css/skel.css">
+<link rel="stylesheet" href="css/style2.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+</head>
+
+<body>
+	<header class="header">
+        <div class="navilinks">
+            <a href="index.html" >Home </a>|
+            <a href="">Projects </a>|
+            <a href="">Learn</a>
+        </div>
+        <div class="togglebutton">
+        <a href="#"><i class="fa fa-align-justify"></i></a>
+        </div>        
+    </header>
+	<section id="banner">
+    	<div class="browselinks">
+        	<a href="#abstract">Abstract</a>
+            <a href="#technical">Technical details</a>
+            <a href="#team">Team</a>
+            <a href="#gallery">Gallery</a>
+        </div>
+  <h2>SASTR</h2>
+  <p>
+        	Semi-Autonomous Surveillance and Transportation Robot
+        </p>
+   	  <div class="slider">
+           <img src="images/SASTR/Banner (2).jpg" alt="Image could not be loaded">      
+   	  </div>
+    </section>
+    <section id="abstract">
+    	<h2>What it does!</h2>
+        <p>Our robot can perform autonomous navigation and transportation using GPS and Google maps data. Given a final point it would travel autonomously from its location to final point. It should avoid obstacles. It should do surveillance.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oLeQH6g9hCo" frameborder="0" allowfullscreen></iframe>
+    </section>
+<section id="technical">
+   	<header>
+        <h2>How was it made!</h2>
+        <p>The work to be done was divided into three teams</p>
+        </header>
+		<div class="row">
+        	<div class="u4">
+            	<section class="box">
+					<i class="fa fa-steam big round color1"></i>
+		            <h3>Mechanical</h3>
+		            <p>The work of mechanical team was to design a robot that can move on rough terrain. After discussion it was decided that we will make a robot that has a design similar to that of the tank.</p>
+                </section>
+            </div>
+            <div class="u4">
+            	<section class="box">
+                	<i class="fa fa-lightbulb-o big round color2"></i>
+           			<h3>Electronics</h3>
+            		<p>This team had to ensure that correct components of required specification were bought. They assembled the components in the robot and ensured every component was placed and connected properly.</p>
+                </section>
+            </div>
+            <div class="u4">
+            	<section class="box">
+            	<i class="fa fa-android big round color3"></i>
+                <h3>Programming</h3>
+                <p>Programming team was responsible for planning the algorithm of the movement of the robot, implementing the filters and design a program that could process Google maps data and GPS data from robot.</p>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+	<header>
+    	<h2>Meet the awesome team</h2>
+        <p>SASTR's team consisted of seven members. Some info about them is given below</p>
+	</header>
+    <div class="profiles">
+    	<div class="profile">
+        	<img src="images/SASTR/profilepic/hemant_e.jpg" alt="f">
+        	<h4>Hemant Kumar</h4>
+            <p>Programming Team</p>
+        </div>
+    	<div class="profile">
+        	<img src="images/SASTR/profilepic/deepak_e.jpg" alt="f">
+        	<h4>Deepak Gangwar</h4>
+            <p>Electronics Team</p>
+        </div>
+    	<div class="profile">
+        	<img src="images/SASTR/profilepic/jatin_e.jpg" alt="f">
+        	<h4>Jatin Aggarwal</h4>
+            <p>Mechanical Team</p>
+        </div>
+    	<div class="profile">
+        	<img src="images/SASTR/profilepic/prasang_e.jpg" alt="f">
+        	<h4>Prasang Gupta</h4>
+            <p>Electronics Team</p>
+        </div>
+    	<div class="profile">
+        	<img src="images/SASTR/profilepic/shibhansh_e.jpg" alt="f">
+        	<h4>Shibhansh Dohare</h4>
+            <p>Programming Team</p>
+        </div>
+    	<div class="profile">
+        	<img  src="images/SASTR/profilepic/snehil_e.jpg" alt="f">
+        	<h4>Snehil Verma</h4>
+            <p>Programming Team</p>
+        </div>
+    	<div class="profile">
+        	<img src="images/SASTR/profilepic/vaibhav_e.jpg" alt="f">
+        	<h4>Vaibhav Bhagat</h4>
+            <p>Mechanical Team</p>
+        </div>        
+    </div>
+    <footer>
+    <p>
+       All the team members are undergraduate students at IIT Kanpur. This robot was made as a summer project in first year of their graduation.
+    </p>
+    </footer>
+</section>
+    <section id="gallery">
+    	<header>
+	        <h2>Gallery</h2>
+            <p>Some images of our project</p>
+        </header>
+        <div class="images">
+        	<img src="images/SASTR/IMAG1351.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1356.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1357.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1358.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1359.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1360.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1361.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1362.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1363.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1364.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1365.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1366.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1367.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1368.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1369.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1370.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/IMAG1371.jpg" alt="image could not be loaded">
+            <img src="images/SASTR/Banner.jpg" alt="image could not be loaded">
+        </div>
+    </section>
+    <section id="footer">
+    	<footer>        
+        <div class="author">
+			<div class="sociallinks">
+            <a href="https://in.linkedin.com/pub/hemant-kumar/104/b48/83b" target="_blank"><i class="fa fa-linkedin round"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100001448064137" target="_blank"><i class="fa fa-facebook round"></i></a>
+            <a href="https://plus.google.com/u/0/+hemantkumar96/" target="_blank"><i class="fa fa-google-plus round"></i></a>            
+            </div>        
+        	<i class="fa fa-copyright"></i>
+            Untitled. All rights reserved&emsp;Design: Hemant Kumar
+        </div>
+        </footer>
+    </section>
+</body>
+</html>

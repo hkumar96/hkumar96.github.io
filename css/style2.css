@@ -1,0 +1,270 @@
+@charset "utf-8";
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+body{
+	font-family:Raleway, sans-serif;
+	text-align:center;
+}
+/*Header*/
+.header{
+	background-color:#46b8b8;
+	text-align:center;
+	position:fixed;
+	padding:1.1em 0;
+	box-shadow:0 1px 1px rgb(221,216,216);
+	z-index:2;
+	width:100%;
+	font-size:1.1em;
+}
+.header .togglebutton{
+	visibility:hidden;
+}
+.header .togglebutton.active{
+	visibility:visible;
+}
+	.header .navilinks a{
+		padding:0 2em;
+		color:rgba(255,255,255,.8);
+		font-weight:700;
+		text-decoration:none;
+		-moz-transition:all .2s ease-in-out;
+		-webkit-transition:all .2s ease-in-out;
+		-ms-transition:all .2s ease-in-out;
+		transition:all .2s ease-in-out;
+	}
+	.header .navilinks a:hover, header .navilinks a:active{
+		color:rgba(255,255,255,1);
+	}
+	.header .togglebutton{
+		z-index:3;
+		position:fixed;
+		top:2vw;
+		left:2%;
+	}
+	.header .togglebutton a{
+		font-family:FontAwesome;
+		color:#FFFFFF;
+	}
+	/*Banner*/
+#banner{
+	display:block;
+	padding-top:4em;
+	background:rgba(0,0,0,.65);
+	overflow:auto;
+	height:100%;
+}
+	.slider{
+		position:absolute;
+		overflow:hidden;
+		border:solid;
+		float:left;
+		top: 4em;
+		z-index:-1;
+
+	}
+	.slider:before, .slider:after{
+		content:'';
+		display:block;
+		height:0;
+		clear:both;
+	}
+	.slider img{
+		min-width:840px;
+		width:100%;
+	}
+	.browselinks{
+		display:inline-block;
+		position:absolute;
+		right:2%;
+		line-height:2em;
+		padding:1em 0;
+	}
+	.browselinks a{
+		color:#CDCED0;
+		text-decoration:none;
+		padding:0 1em;
+		font-size:1.1em;
+	}
+	.browselinks a:hover, .browselinks a:active{
+		color:#FFFFFF;
+	}
+	#banner h2{
+		font-size:5em;
+		padding-top:20vw;
+		padding-bottom:.4em;
+		color:#FFFFFF;
+	}
+	#banner p{
+		font-size:2em;
+		color:#FFFFFF;
+		padding-bottom:15vw;
+	}
+/*Abstract*/
+#abstract{
+	background:#FFFFFF;
+	padding:10% 4%
+}
+	#abstract h2{
+		font-size:3em;
+		line-height:2em;
+		color:#3E3E3E;
+	}
+	#abstract p{
+		font-size:1.2em;
+		padding-top:1em;
+		padding-bottom:4%;
+	}
+/*Technical*/
+#technical{
+	background:#F5F5F5;
+	padding:0 4%;
+	padding-bottom:10%;
+	border-bottom:1px solid rgba(144,144,144,.25);
+	border-top:1px solid rgba(144,144,144,.25);	
+}
+	#technical header{
+		padding-top:10%;
+		padding-bottom:5%;
+	}
+	#technical header h2{
+		font-size:3em;
+		line-height:2em;
+		color:#3C3C3C;
+	}
+	#technical header p{
+		font-size:1.2em;
+		line-height:2em;
+	}
+/*Box*/
+.box{
+	margin:0 4%;
+	height:100%;
+	border:1px solid rgba(144,144,144,.25);
+	border-radius:10px;
+	padding:10% 15%;
+	background:#FFFFFF;
+}	.box h3{
+		font-size:1.5em;
+		line-height:2.5em;
+	}
+	.box p{
+		font-size:.9em;
+	}
+/*icons*/
+.fa{
+	color:white;
+}
+	.fa.round{
+		border-radius:50%;
+		height:2em;
+		width:2em;
+		line-height:2em;
+		font-size:1em;
+	}
+	.fa.big{
+		font-size:5em;
+	}
+	.fa.color1{
+		background:rgba(100,100,100,1)
+	}
+	.fa.color2{
+		background:rgba(255,230,50,1);
+	}
+	.fa.color3{
+		background:rgba(140,198,57,1)
+	}
+	.fa.fa-facebook{
+		background:#3b5998;
+	}
+	.fa.fa-google-plus{
+		background:#D34836;
+	}
+	.fa.fa-linkedin{
+		background:#0E76A8;
+	}
+#team{
+	padding:10% 0;
+}
+	#team header h2{
+		font-size:3em;
+		line-height:2em;
+		color:#3F3F3F;
+	}
+	#team header p{
+		font-size:1.1em;
+		color:#5B5B5B;
+	}
+	#team footer{
+		padding:0em 8em
+	}
+	.profiles  *{
+		//border:1px solid;
+	}
+	.profiles{
+		border-bottom:1px solid rgba(144,144,144,.25);
+		border-top:1px solid rgba(144,144,144,.25);
+		margin:6% 2%;
+		text-align:center;
+	}
+	.profiles img{
+		float:left;
+		border-radius:50%;
+		margin-right:4%;
+		height:90px;
+		width:90px;
+	}
+	.profile{
+		display:inline-block;
+		font-size:1em;
+		width:20em;
+		margin:2% 4%;
+		text-align:left;
+	}
+	.profile h4{
+		margin-top:6%;
+		line-height:1.6em;
+		font-size:1.1em;
+		color:#3C3C3C;
+	}
+	.profile p{
+		font-size:.9em;
+		color:#7f7f7f;
+	}
+#gallery{
+	background:#f0f0f0;
+	padding:10% 0;
+}
+	#gallery h2{
+		font-size:3em;
+		line-height:1.5em;
+		color:#2F2F2F;
+	}
+	#gallery p{
+		color:#5A5A5A;
+		font-size:1.5em;
+		margin-top:2%;
+		margin-bottom:5%;
+	}
+.images img{
+	display:inline-block;
+	width:270px;
+	margin:1%;
+}
+#footer{
+	text-align:left;
+	background:rgb(0,0,40);
+	padding:2% 5%;
+}
+.author{
+	color:rgba(255,255,255,.5);
+}
+.author i{
+	color:rgba(255,255,255,.5);
+}
+.sociallinks i{
+	color:#FFFFFF;
+	float:right;
+	text-align:center;
+	margin:0 .5%;
+}
+

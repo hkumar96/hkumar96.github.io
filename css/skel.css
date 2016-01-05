@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+*, *:after, *:before{
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+.slider{
+	width:100%;
+	height:100%;
+}
+.container{
+}
+.row{
+	width:100%;
+}
+.row *{
+//	border:solid;
+}
+	.row > div{
+		float:left;
+	}
+.row:before, .row:after{
+	content:'';
+	display:block;
+	height:0;
+	clear:both;
+}
+.u4{
+	width:33.333333%;
+}
+	
